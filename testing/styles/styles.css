@@ -4,7 +4,17 @@
     --heading-font: "sigmar";
 }
 
+img {
+    width: 80%;
+}
 
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 2.0em;
+}
 
 .shaded { font-size: 1.5em;
     font-family: var(--heading-font);
