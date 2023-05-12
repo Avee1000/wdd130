@@ -42,7 +42,7 @@ h3 {
     /* px is absolute and will never change based on screen size.
     learn to use more relative units*/
     padding-top: 0px;
-    text-align: justify; 
+    text-align: center; 
 }
 
 /* These are for images */
