@@ -15,11 +15,11 @@ p {
 a {
     font-size: 1.0em;
 }
-
-.shaded { font-size: 1.5em;
+/* 
+.shaded { font-size: 20em;
     font-family: var(--heading-font);
     line-height: 1.5em;
-}
+} */
 
 
 a:hover {background-color: blue;
@@ -29,7 +29,7 @@ a:hover {background-color: blue;
 
 /* * {
     border: 2px solid green;
-} */
+} */ /*use this to display borders*/
 
 h1 {
     text-align: center;
@@ -54,4 +54,9 @@ main p {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+}
+
+#hovr:hover {
+    background-color: white;
+    color: steelblue;
 }

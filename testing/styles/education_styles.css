@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Always import root for heading fons and paragraph fonts */
+
+body {
+    background-color: #FCA6C9 !important;
+}
+
+/* These are the stylings for heading */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto Condensed;
+}
+
+h1:hover {
+    color: white !important;
+}
+
+h2 {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: white;
+    font-family: Lato;
+    text-align: center;
+}
+
+.container{
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    padding: 10%;
+    padding-left: 300px;
+    padding-bottom: 20px; 
+    /* px is absolute and will never change based on screen size.
+    learn to use more relative units*/
+    padding-top: 0px;
+    text-align: justify; 
+}
+
+/* These are for images */
+/* Using a block display will centralise the image */
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.p2{
+    color: white;
+    font-family:"Times New Roman";
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.p3{
+    font-family:"Roboto Condensed";
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
