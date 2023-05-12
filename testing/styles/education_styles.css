@@ -36,12 +36,8 @@ h3 {
 .container{
     font-family: "Roboto Condensed";
     font-weight: bold;
-    padding: 10%;
-    padding-left: 300px;
-    padding-bottom: 20px; 
     /* px is absolute and will never change based on screen size.
     learn to use more relative units*/
-    padding-top: 0px;
     text-align: center; 
 }
 
