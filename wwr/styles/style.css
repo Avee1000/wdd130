@@ -33,7 +33,7 @@ body {
     background-color: #F1FAEE ;}
 
 header {
-    background-color: #9d0208;}
+    background-color: #131610;}
 
 nav a {
     color: white;}
@@ -43,31 +43,31 @@ nav a:hover {
     color: #1D3557;}
 
 .book, .join {
-    background-color: #1D3557;
+    background-color: #6E8061;
     text-decoration: none;
     color: #F1FAEE;
-    display: inline-block;
-    border: 10px solid #1D3557;
-    padding: 15px 50px;
+    display: inline-block;}
+    /* border: 10px solid #1D3557;} */
+    /* padding: 15px 50px;
     border-radius: 50px;
-    border-color: #9d0208;}
+    border-color: #9d0208;} */
     /* border-style: dotted;} */
 
 .book:hover, .join:hover {
-    background-color: #9d0208;
-    color: #ffffff;
-    border-color: #1D3557;}
+    background-color: #131610;
+    color: #ffffff;}
+    /* border-color: #1D3557;} */
 
 #background {
-    background-color: #A8DADC;}
+    background-color: #6E8061;}
 
 .msg {
-    background-color: #7FACC7;
-    color: #1D3557;;
+    background-color: #404034;
+    color: #F1FAEE;;
     border-radius: 0;}
 
 footer {
-    background-color: #9d0208;}
+    background-color: #131610;}
 
 .social img{
     border-radius: 50px;}
