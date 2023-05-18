@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+header img {
+    border: 4px;
+    width: 80%;
+}
+
+#ice {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#ice2 {
+    background-color: gray;
+    width: 80%;
+    text-align: center;
+    margin: -60px auto;
+    padding: 50px 0px;
+}
+#ice2 img{
+    text-align: center;
+    width: 20%;
+    border-radius: 100%;
+    border: 10px solid rgb(68, 66, 66);
+    margin: 20px;
+}
