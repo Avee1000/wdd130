@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
+
+
 #content {
     max-width: 1600px;
-    margin: 0 auto; /* use margin only if the element is block */
-}
+    margin: 0 auto; /* use margin only if the element is block */}
+
+#logo_link {
+    padding-top: 5px;}
 
 nav a {
+    color: white;
     text-align: center;
-    text-decoration: none;}
+    text-decoration: none;
+    padding: 35px;}
+
+nav a:hover {
+    background-color: #F1FAEE;
+    color: #1D3557;}
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;}
@@ -14,6 +26,7 @@ nav a {
     text-align: center;}
 
 .icon {
+    padding-top: 10px;
     width: 80px;}
 
 .logo {
@@ -23,54 +36,91 @@ nav a {
     /* float: center; */
     width: 100%;}
 
-main section {
-    text-align: center;}
-
-#background {
-    height: 725px;}
+#hero {
+    border: 1px solid black;}
 
 body {
-    background-color: #F1FAEE ;}
+    font-family: "Bodoni Moda", serif, Arial;
+    font-size: 22px;
+    background-color: #F1FAEE ;
+    margin: 0;
+    padding: 0;}
+
+h2 {
+    margin: 0;}
+
+.home-grid {
+    border: 1px solid black;}
+
+.home-title {
+    font-family: "Bodoni Moda", serif, Arial;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 10px;}
+
+.msg h2 {
+    font-family: "Bodoni Moda", serif, Arial;
+    font-weight: bolder;}
+
+.msg p{
+    padding-bottom: 15px;
+    font-size: 0.8em;}
+    
+.msg {
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #404034;
+    color: #F1FAEE;}
 
 header {
     background-color: #131610;}
-
-nav a {
-    color: white;}
-
-nav a:hover {
-    background-color: #F1FAEE;
-    color: #1D3557;}
 
 .book, .join {
     background-color: #6E8061;
     text-decoration: none;
     color: #F1FAEE;
-    display: inline-block;}
-    /* border: 10px solid #1D3557;} */
-    /* padding: 15px 50px;
-    border-radius: 50px;
-    border-color: #9d0208;} */
-    /* border-style: dotted;} */
+    display: inline;
+    border: 5px solid;
+    padding:15px 30px;
+    border-radius: 5px;
+    border-color: #131610;
+    font-family: "passion one";
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 50px;}
 
 .book:hover, .join:hover {
     background-color: #131610;
-    color: #ffffff;}
-    /* border-color: #1D3557;} */
+    color: #ffffff;
+    border-color: #6E8061;}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;}
+
+.card-img {
+    border: 10px solid #131610;}
 
 #background {
+    height: 725px;
     background-color: #6E8061;}
 
-.msg {
-    background-color: #404034;
-    color: #F1FAEE;;
-    border-radius: 0;}
+.mountains {
+    padding: 100px 0px;
+    padding-bottom: 150px;}
+
+main section img {
+    box-sizing: border-box;}
+
+main section {
+    text-align: center;}
 
 footer {
+    padding: 25px 50px;
+    margin-top: 200px;
     background-color: #131610;}
 
-.social img{
-    border-radius: 50px;}
+footer .social img{
+    padding-top: 15px ;}
 
 footer p {
     color: white;}
