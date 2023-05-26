@@ -1,0 +1,31 @@
+div {
+    width: 80%;
+    margin: 0px auto;
+    align-content: center;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+h1{
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+
+img{ 
+    padding-right: 400px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-color: white;
+    margin-right: 10%;
+    width: 25em;
+}
+
+aside{
+    background-color: gray;
+    grid-column: 2/6;
+    grid-row: 1/7;
+
+}
