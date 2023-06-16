@@ -97,7 +97,7 @@ h2 {
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 50px auto;
     background-color: rgba(19, 22, 10, 0.87);}
 
 nav {
@@ -187,6 +187,48 @@ footer p a:hover {
     background-color: #F1FAEE;
     color: #1D3557;
     text-decoration: underline;}
+
+#blog-hero-box {
+    display: block;
+    padding-top: 150px;}
+
+#blog-hero-img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    z-index: 1;}
+
+.blog-home-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 0.8em;
+    }
+
+.blog-background {
+    background-color: #91aa7f;
+    margin-top: -80px;
+    z-index: -1;}
+
+.blog-card1 {
+    padding: 100px;
+    grid-column: 1/2;}
+
+.blog-card2{
+    padding: 100px;
+    grid-column: 3/4;}
+
+.blog-text2{
+    text-align: center;}
+
+.blog-card3{
+    padding-bottom: 50px;
+    grid-column: 1/4;}
+
+.blog-img1{
+    width: 80%;
+    height: 700px}
 
 
 @media screen and (max-width: 900px) {
