@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 #content {
     max-width: 1600px;
@@ -56,6 +56,8 @@ nav a:hover {
     width: 80px;}
 
 .logo {
+    position: relative;
+    left: 20px;
     width: 80px;}
 
 body {
@@ -190,45 +192,151 @@ footer p a:hover {
 
 #blog-hero-box {
     display: block;
-    padding-top: 150px;}
+    padding-top: 100px;}
 
 #blog-hero-img {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     height: 400px;
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 15px;
+    bottom: 130px;}
 
 .blog-home-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    font-size: 0.8em;
-    }
+    grid-template-columns: repeat(10,1fr);}
 
 .blog-background {
+    max-height: 80%;
     background-color: #91aa7f;
-    margin-top: -80px;
-    z-index: -1;}
+    border-radius: 20px;
+    margin-top: -200px;
+    padding-bottom: -10px;
+    }
 
-.blog-card1 {
+.blog-box1 {
+    width: 100%;
     padding: 100px;
-    grid-column: 1/2;}
+    grid-column: 1/5;
+    grid-row: 1/5;}
 
-.blog-card2{
+.blog-box1 p{
+    position: relative;
+    box-shadow: 5px 5px 10px #131610;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #404034;
+    color: #F1FAEE;
+    bottom: 200px;
+    left: 30px;
+    border-radius: 15px;
+    transition: transform .6s;}
+
+.blog-box1 p:hover {
+    opacity: 1;
+    transform: scale(1.1);}
+
+.blog-box1 h2 {
+    position: relative;
+    font-family: "Bodoni Moda", serif, Arial;
+    font-weight: bolder;
+    font-size: 50px;
+    top: 80px;
+    text-align: left;
+    text-shadow: 4px 4px 8px rgb(29, 24, 24);}
+
+.blog-img1 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 100px 0;
+    border-radius: 20px;}
+
+.blog-box2{
     padding: 100px;
-    grid-column: 3/4;}
+    grid-column: 6/11;}
+
+.blog-box2 p {
+    position: relative;
+    box-shadow: 5px 5px 10px #131610;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #404034;
+    color: #F1FAEE;
+    bottom: 200px;
+    left: 10px;
+    border-radius: 15px;
+    transition: transform .6s;}
+
+.blog-box2 p:hover {
+    opacity: 1;
+    transform: scale(1.1);}
+
+.blog-box2 h2 {
+    position: relative;
+    font-family: "Bodoni Moda", serif, Arial;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+    right: 30px;
+    top: 80px;
+    text-shadow: 4px 4px 8px rgb(29, 24, 24);}
+
+.blog-img2 {
+    position: relative;
+    right: 30px;
+    width: 100%;
+    height: 600px;
+    padding: 100px 0;}
 
 .blog-text2{
     text-align: center;}
 
-.blog-card3{
-    padding-bottom: 50px;
-    grid-column: 1/4;}
+.blog-box3, .blog-img3{
+    position: relative;
+    grid-column: 2/10;
+    width: 100%;}
 
-.blog-img1{
-    width: 80%;
-    height: 700px}
+.blog-img3 {
+    bottom: 100px;
+    width: 100%;
+    height: 600px;
+}
+
+.blog-box3 p {
+    position: relative;
+    box-shadow: 5px 5px 10px #131610;
+    padding: 35px;
+    line-height: 1.0em;
+    background-color: #404034;
+    color: #F1FAEE;
+    bottom: 300px;
+    border-radius: 15px;
+    transition: transform .6s;}
+
+.blog-box3 p:hover {
+    opacity: 1;
+    transform: scale(1.1);}
+
+h6 {
+    font-family: 'Bebas Neue', Courier, monospace;
+    position: relative;
+    border-color: #131610;
+    font-size: 150px;
+    margin: 0 auto;
+    left: 100px;
+    bottom: 100px;
+    text-shadow: 10px 10px 10px rgb(114, 114, 114);}
+
+.blog-home-grid h2 {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Bebas Neue', Courier, monospace;
+    text-shadow: 4px 4px 8px rgb(29, 24, 24);
+    bottom: 100px;}
+
 
 
 @media screen and (max-width: 900px) {
