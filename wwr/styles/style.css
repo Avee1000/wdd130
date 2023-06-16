@@ -213,8 +213,7 @@ footer p a:hover {
     background-color: #91aa7f;
     border-radius: 20px;
     margin-top: -200px;
-    padding-bottom: -10px;
-    }
+    padding-bottom: 0px;}
 
 .blog-box1 {
     width: 100%;
