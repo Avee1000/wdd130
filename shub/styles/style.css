@@ -436,7 +436,6 @@ footer #logo_link {
         display: flex;
         justify-content: center;
         align-items: center;
-        float: center;
         padding: 15px;
         top: 50px;
     }
