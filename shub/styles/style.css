@@ -183,7 +183,8 @@ nav a:hover {
     text-align: center;}
 
 .home-grid h4 {
-    font-family:  "Belanosima", serif, Arial;}
+    font-family:  "Belanosima", serif, Arial;
+    font-weight: 200;}
 
 .serving h4 {
     display: inline-block;
