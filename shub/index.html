@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> "ServiceHub | Home" </title>
     <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/> -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+
 </head>
 <body>
     <div id="content">
@@ -14,9 +19,9 @@
                 <img class='logo1' src="https://avee1000.github.io/wdd130/shub/images/servicehub-1.jpg" alt="ServiceHub Logo">
             </a>
             <nav>
-                <a class="nav1" href="index.html">Home</a>
-                <a href="ourvision.html">Our Vision</a>
-                <a href="contactus.html">Contact Us</a>
+                <a class="nav1" href="index.html"><i id="home" class="fa fa-home"></i>Home</a>
+                <a href="ourvision.html"><i class="fa fa-user"></i>Our Vision</a>
+                <a href="contactus.html"><i class="fa fa-phone"></i>Contact Us</a>
             </nav>
         </header>
         <div id="hero">
@@ -44,10 +49,13 @@
                 <a href="joinus.html" class="join">Join Us</a>
             </div>
             <section class="serving">
-                <h1>SERVING</h1>
-                <h4>ServiceHub.com is committed to supporting service providers in their journey towards growth and success. 
+                <button class="accordion"><i class="fa-solid fa-handshake fa-shake fa-5x" style="color: #000000;"></i></button>
+                <div class="panel">
+                    <h1>SERVING</h1>
+                    <P>ServiceHub.com is committed to supporting service providers in their journey towards growth and success. 
                     We understand the challenges they face in building their businesses and connecting with potential customers. 
-                    </h4>
+                    </P>
+                </div>
             </section>
             <section class="connecting">
                 <h1>CONNECTING</h1>
@@ -88,5 +96,21 @@
             </div>
         </footer>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
