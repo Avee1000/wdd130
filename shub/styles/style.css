@@ -204,17 +204,17 @@ nav a:hover {
     transition: 1s;
     }
     
-.accordion::before {
-    content: "\02795";/* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+.accordion::after {
+    content: "\25BE";/* Unicode character for "plus" sign (+) */
+    font-size: 50px;
     color: #F1FAEE;
     float: right;
-    margin-left: 5px;
-    }
+    margin-left: 5px;}
     
 .active::after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-    color: #F1FAEE;}
+    content: "\25B4"; /* Unicode character for "minus" sign (-) */
+    color: #F1FAEE;
+    float: right;}
 
 
 .serving p {
