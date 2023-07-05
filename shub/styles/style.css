@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+@import url("https://avee1000.github.io/wdd130/shub/css/fontawesome.min.css");
+@import url("https://avee1000.github.io/wdd130/shub/css/brandscss");
+@import url("https://avee1000.github.io/wdd130/shub/css/solid.min.css");
 
 body {background-color: #dbbbbb;}
 
@@ -115,7 +118,7 @@ nav a:hover {
     background-color: rgba(187, 41, 41, 0.5);
     display: grid;
     grid-template-columns: 90px 1.5fr 50px 1.5fr 50px 1.5fr 90px;
-    grid-template-rows: 80px 80px 80px 100px 1fr 50px 0.5fr 60px;}
+    grid-template-rows: 80px 80px 80px 100px .4fr 50px 0.5fr 60px;}
 
 .blue {
     grid-column: 1/8;
@@ -162,13 +165,11 @@ nav a:hover {
 
 .connecting {
     border-radius: 10px;
-    background-color: #F1FAEE;
     grid-column: 4/5;
     grid-row: 5/6;}
 
 .growing {
     border-radius: 10px;
-    background-color: #F1FAEE;
     grid-column: 6/7;
     grid-row: 5/6;}
 
@@ -190,10 +191,9 @@ nav a:hover {
     font-weight: 200;}
 
 .accordion {
-    background-color: #eee;
+    background-color: #1D3557;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -201,20 +201,21 @@ nav a:hover {
     border: none;
     outline: none;
     place-content: center;
-    transition: 0.4s;
+    transition: 1s;
     }
     
-.accordion::after {
-    content: '\f2b5'; /* Unicode character for "plus" sign (+) */
+.accordion::before {
+    content: "\02795";/* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #777;
+    color: #F1FAEE;
     float: right;
     margin-left: 5px;
     }
     
 .active::after {
-    font-family: "Font Awesome";
-    content: "\f004"; /* Unicode character for "minus" sign (-) */}
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: #F1FAEE;}
+
 
 .serving p {
     display: inline-block;
@@ -222,7 +223,7 @@ nav a:hover {
     text-align: center;}
 
 .active, .accordion:hover {
-  background-color: #ccc;}
+  background-color: rgb(3, 13, 38, .7);}
   
 .panel {
     padding: 0 18px;
@@ -231,15 +232,15 @@ nav a:hover {
     border-bottom-left-radius: 10px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-out;
+    transition: max-height 1s ease-out;
     }
 
-.connecting h4 {
+.connecting p {
     display: inline-block;
     margin: 10px 30px 50px 30px;
     text-align: center;}
 
-.growing h4 {
+.growing p {
     display: inline-block;
     margin: 15px 30px 30px 30px;
     text-align: center;}
