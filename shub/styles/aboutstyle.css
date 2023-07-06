@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+@import url("https://avee1000.github.io/wdd130/shub/css/fontawesome.min.css");
+@import url("https://avee1000.github.io/wdd130/shub/css/brandscss");
+@import url("https://avee1000.github.io/wdd130/shub/css/solid.min.css");
+
+body {
+    background-color: #F1FAEE;}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* use margin only if the element is block */}
+
+#logo_link1 {
+    width:80%;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;}
+
+header {
+    display: grid;
+    grid-template-columns: 50px auto;
+    background-color: rgba(0, 47, 73, 0.8);}
+
+nav {
+    display: flex;
+    justify-content: space-around;}
+
+nav a {
+    transition: transform 2s;
+    color: #F1FAEE;
+    font-family: "Instrument serif", serif, Arial;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dotted;}
+
+nav a:hover {
+    border-radius: 10px;
+    background-color: #F1FAEE;
+    color: rgba(0, 47, 73) ;
+    opacity: .8;
+    transform: scale(.9);
+    font-size: 1.5em;}
+
+
+.logo1 {
+    position: relative;
+    left: 20px;
+    width: 80px;
+    border-radius: 50px;}
+
+#hero{
+    border-bottom: 10px solid burlywood;
+    margin-top: -100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 250px .5fr 100px;}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;}
+
+#hero-img {
+    height: 100%;
+    width: 100%}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;}
+
+.home-title {
+    position: relative;
+    color: #F1FAEE;
+    text-align: center;
+    font-size: 120px;
+    bottom: 80px;}
+
+#background1 {
+    display: grid;
+    grid-template-columns: 100px 1fr 20px;
+    grid-template-rows: 25px 2fr 25px;
+    background-color: #030D26;}
+
+.article {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #F1FAEE;
+}
