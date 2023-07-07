@@ -148,7 +148,7 @@ nav a:hover {
 
 #bg3 {
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     height: 100%;
     grid-column:2/3;
     grid-row: 1/5;
@@ -159,7 +159,7 @@ nav a:hover {
 .article2 {
     position: relative;
     padding-bottom: 92px;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 25px;
     padding-right: 25px;
     line-height: 2;
@@ -171,12 +171,13 @@ nav a:hover {
     grid-row: 1/5;
    }
 
+
 .join{
     text-decoration: none;
     display: inline-block;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 2px;
     margin-left: 72px;
     border-radius: 50px;
     background-color: #F1FAEE;
@@ -189,6 +190,10 @@ nav a:hover {
     transition: transform 3s;
     text-align: center;
     width: 50%;}
+
+.mountains{
+    display: none;
+}
 
 .join:hover {
     box-shadow: 5px 5px 5px black;
@@ -228,7 +233,7 @@ nav a:hover {
     }
 
 footer {
-    margin-top: 300px;
+    margin-top: 350px;
     display: grid;
     place-items: center;
     grid-template-columns: 50px 1fr 50px 1fr 50px 1fr;
