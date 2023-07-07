@@ -31,7 +31,6 @@ nav {
 nav a {
     transition: transform 2s;
     color: #F1FAEE;
-    font-family: "Instrument serif", serif, Arial;
     text-align: center;
     text-decoration: none;
     padding: 35px;
@@ -77,10 +76,11 @@ nav a:hover {
     margin-top: 100px;}
 
 .home-title {
+    font-family: "Bebas Neue", serif, Arial;
     position: relative;
     color: #F1FAEE;
     text-align: center;
-    font-size: 120px;
+    font-size: 150px;
     bottom: 80px;}
 
 #background1 {
