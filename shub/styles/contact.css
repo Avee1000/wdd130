@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+body {
+    background-color: #F1FAEE;}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* use margin only if the element is block */}
+
+#logo_link1 {
+    width:80%;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;}
+
+header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px auto;
+    background-color: rgba(0, 47, 73, 0.8);}
+
+nav {
+    display: flex;
+    justify-content: space-around;}
+
+nav a {
+    transition: transform 2s;
+    color: #F1FAEE;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dotted;}
+
+nav a:hover {
+    border-radius: 10px;
+    background-color: #F1FAEE;
+    color: rgba(0, 47, 73) ;
+    opacity: .8;
+    transform: scale(.9);
+    font-size: 1.5em;}
+
+
+.logo1 {
+    position: relative;
+    left: 20px;
+    width: 80px;
+    border-radius: 50px;}
+
+#hero{
+    margin-top: -100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;}
+
+#hero-box {
+    background-color: #E63946;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;}
+
+#hero-img {
+    opacity: .5;
+    height: 100%;
+    width: 100%}
+    
