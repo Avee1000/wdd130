@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+#container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("C:/Users/Other/Documents/MY CODES/wdd130/shub/images/wave.png");
+}
