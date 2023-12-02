@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#content {
+    max-width: 1600px;
+    padding: 0 auto;
+}
+
+header {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-image: url('https://avee1000.github.io/wdd130/shub/images/wave.png');
+    background-size: 100%; /* Adjust the background-size property as needed */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
+    background-position: center top;
+    height: 100vh;
+    min-height: 150px;
+}
+
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+
+.logo1{
+    position: relative;
+    left: 20px;
+    width: 15%;
+}
+    
+nav{
+    display: flex;
+    justify-content: space-around;
+}
