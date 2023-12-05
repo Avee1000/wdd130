@@ -17,26 +17,23 @@ body, html {
 header {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 50px auto;
     background-image: url('https://avee1000.github.io/wdd130/shub/images/wave.png');
-    background-size: 100%; /* Adjust the background-size property as needed */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-position: center; /* Center the background image */
-    background-position: center top;
-    height: 100vh;
-    min-height: 150px;
+    background-size: 150%; 
+    height: 80px;
 }
 
-#logo_link {
+#logo_link1 {
     justify-self: center;
     align-self: center;
     padding-top: 5px;
+    margin-left: 50px;
 }
 
 .logo1{
     position: relative;
-    left: 20px;
-    width: 15%;
+    left: 50px;
+    width: 150px;
 }
     
 nav{
