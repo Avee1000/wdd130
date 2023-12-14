@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Medula+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#content {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 200px auto auto; 
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-image: url('https://avee1000.github.io/wdd130/shub/images/wave.png');
+    background-size: 155%; 
+    background-repeat: no-repeat;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+#logo_link1 {
+    grid-column: 1/2;
+    /* margin-left: -20px;
+    margin-right: auto;  use this when you use the flex display in the header styles*/
+} 
+
+.logo1{
+    position: relative;
+    left: 15px;
+    width: 150px;
+}
+
+#searchbox{
+    justify-self: end;
+    position: relative;
+    display: inline-block;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    transition: width 0.4s ease-in-out;
+    font-size: small;
+    border: 0;
+    outline: 0;
+}
+
+#site-search{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: "Belanosima", serif, Arial;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+input:hover{
+    width: 250px;
+}
+
+input:focus{
+    box-sizing: border-box;
+    width: 420px;
+    font-size: 25px;
+    /* transition: font-size 0.2s ease-in-out; */
+    /* border: 4px solid !important;
+    border-color: #00b4d8 !important; */
+}
+
+#search-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d62828;
+    color:#ffffff;
+    font-family: "Belanosima", serif, Arial;
+    border-radius: 60%;
+    margin: 4px 4px 4px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+#search-icon:hover{
+    background-color: #780000;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-self: end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+nav {
+    position: relative;
+  }
+
+.cart{
+    padding-right: 30px;
+    border-right: 2px solid white;
+    margin-right: 15px;
+    height: 30px;
+    padding-top: 12px;
+}
+
+.lang{
+    padding-right: 20px;
+}
+
+nav #hidden-links {
+    display: none;
+}
+
+nav #hidden-links a{
+    color: white;
+    /* padding: 14px 16px; */
+    position: absolute;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.hamburger-menu{
+    width: 100px;
+    background-color: white;
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+
+.fa-user-circle {
+    padding-left: 15px;    
+    color: #0d1b2a;
+}
+
+
+nav .hamburger-menu{
+
+}
+
+nav a{
+}
