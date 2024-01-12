@@ -17,23 +17,54 @@ body, html {
 header {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 50px auto;
+    place-items: center;
+    grid-template-columns: 200px auto auto; 
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
     background-image: url('https://avee1000.github.io/wdd130/shub/images/wave.png');
-    background-size: 150%; 
-    height: 80px;
+    background-size: 155%; 
+    background-repeat: no-repeat;
+    min-height: 80px;
+    max-height: 80px;
 }
 
 #logo_link1 {
-    justify-self: center;
-    align-self: center;
-    padding-top: 5px;
-    margin-left: 50px;
-}
+    grid-column: 1/2;
+    /* margin-left: -20px;
+    margin-right: auto;  use this when you use the flex display in the header styles*/
+} 
 
 .logo1{
     position: relative;
-    left: 50px;
+    left: 5px;
     width: 150px;
+}
+
+#searchbox{
+    justify-self: end;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+}
+
+#site-search{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: "Belanosima", serif, Arial;
+    text-align: center;
+}
+
+#search{
+    background-color: #25418f;
+    color:#ffffff;
+    font-family: "Belanosima", serif, Arial;
+    border-radius: 5px;
+    padding-top: 4px;
+    cursor: pointer;
 }
     
 nav{
