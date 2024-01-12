@@ -7,9 +7,9 @@
     <title> "ServiceHub | Home" </title>
     <link rel="stylesheet" href="styles/style.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/> -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/brands.css">
-    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="/shub/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/shub/css/brands.css">
+    <link rel="stylesheet" href="/shub/css/solid.css">
 
 </head>
 <body>
@@ -20,20 +20,35 @@
                 <img class='logo1' src="images/servicehub-logos_white smaller.png" alt="ServiceHub Logo">
             </a>
             <div id="searchbox">
-                <input type="search" id="site-search" name="q" placeholder="      Author Search"/>
-                <button id="search">Search</button>
+                <input type="search" id="site-search" name="q" placeholder="Search..."/>
+                <button id="search-icon"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
             </div>
             <nav>
-                <a class="account" href="signin.html"><i class="fa-solid fa-user fa-1x" style="color: white;"></i></a>
-                <a class="settings" href="settings.html"><i class="fa-solid fa-screwdriver-wrench" style="color: white;"></i></a>
-                <a href="contactus.html"><i class="fa fa-phone"></i>Contact Us</a>
+
+                <a class="lang" ><i class="fa-regular fa-language fa-xl" style="color: white;" ></i></a>
+                <a class="cart" href="cart.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: white;" ></i></a>
+
+                <div id="hidden-links">
+                    <a class="account" href="signin.html">Log in</a>
+                    <a class="settings" href="settings.html">Sign up</i></a>
+                    <!-- <a href="contactus.html"><i class="fa fa-phone fa-xl" style="color: white"></i></a> -->
+                </div>
+
+                <button class="hamburger-menu"href="">
+                    <i class="fa-solid fa-bars fa-" style="color: #0d1b2a;"></i>
+                    <i class="fa-solid fa-user-circle fa-xl"></i>
+                </button>
+
             </nav>
         </header>
+        
+        <main>
 
+        </main>
        
         <footer>
             <a id="logo_link2" href="index.html">
-                <img class='logo' src="https://avee1000.github.io/wdd130/shub/images/servicehub.jpg" alt="ServiceHub Logo">
+                <img class='logo2' src="images/servicehub-icon_white smaller.png" style="color: white;" alt="ServiceHub Logo">
             </a>
             <p>SERVICEHUB &copy; 2023 - Osamagumwende Flourish Idahosa-Sunny</p>
             <a class="footer-links" href="ourvision.html">Our Vision</a>
@@ -51,22 +66,7 @@
                 </a>
             </div>
         </footer>
+        <script src="hamburger.js" ></script>
     </div>
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-                } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
 </body>
 </html>
